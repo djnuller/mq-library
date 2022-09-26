@@ -26,5 +26,9 @@ public class MqMessageObject {
     private Long objLong;
     @MqItem(length = 8, datePattern = "ddMMyyyy")
     private Date date;
+    @MqItem(length = 6, padding = '0', rightPad = false)
+    private double primitiveDouble;
+    @MqItem(length = 6, padding = '0', rightPad = false)
+    private Double objDouble;
 
 }

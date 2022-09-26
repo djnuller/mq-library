@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19f205bf-275e-4c99-9b5f-dec164a945de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MqMessageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MqMessageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MqSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MqSerializerTest.java" afterDir="false" />
     </list>
@@ -107,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664127984565</updated>
-      <workItem from="1664127986462" duration="8996000" />
+      <workItem from="1664127986462" duration="9226000" />
     </task>
     <servers />
   </component>

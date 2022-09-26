@@ -27,13 +27,15 @@ public class MqSerializerTest {
                 .objLong(321L)
                 .primitiveLong(123)
                 .date(new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2021"))
+                .primitiveDouble(123.0)
+                .objDouble(321.0)
                 .build();
     }
 
     @Test
     public void test_serializer() throws Exception {
         var messageString = serializer.getMqMessageString(message);
-        var message = "string      000022000123JN00012300032110102021";
+        var message = "string      000022000123JN000123000321101020210123.00321.0";
         assertEquals(message, messageString);
     }
 }
