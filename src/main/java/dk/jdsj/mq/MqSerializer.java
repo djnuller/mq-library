@@ -5,6 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Type;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Objects;
 
 public class MqSerializer {
@@ -45,10 +47,18 @@ public class MqSerializer {
 
     private String castToString(Field field, Object object) throws IllegalAccessException {
         switch (field.getType().getSimpleName()) {
+            case "Date": return getDateFormatted(field, object);
             case "Boolean":
             case "boolean": return getFlag(field, object);
             default: return String.valueOf(field.get(object));
         }
+    }
+
+    private String getDateFormatted(Field field, Object object) throws IllegalAccessException {
+        String pattern = field.getAnnotation(MqItem.class).datePattern();
+        Date date = (Date) field.get(object);
+        SimpleDateFormat dateFormat = new SimpleDateFormat(pattern);
+        return dateFormat.format(date);
     }
 
     private String getFlag(Field field, Object object) throws IllegalAccessException {

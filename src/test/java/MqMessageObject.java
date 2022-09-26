@@ -2,6 +2,8 @@ import dk.jdsj.mq.MqItem;
 import dk.jdsj.mq.MqSerializable;
 import lombok.*;
 
+import java.util.Date;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,5 +24,7 @@ public class MqMessageObject {
     private long primitiveLong;
     @MqItem(length = 6, padding = '0', rightPad = false)
     private Long objLong;
+    @MqItem(length = 8, datePattern = "ddMMyyyy")
+    private Date date;
 
 }

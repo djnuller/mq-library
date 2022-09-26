@@ -13,4 +13,5 @@ public @interface MqItem {
     char padding() default ' ';
     char trueChar() default 'Y';
     char falseChar() default 'N';
+    String datePattern() default "dd-MM-yyyy";
 }

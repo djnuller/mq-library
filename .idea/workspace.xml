@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f205bf-275e-4c99-9b5f-dec164a945de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/exceptions/MqSerializationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MqMessageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MqSerializerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MqMessageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MqMessageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MqSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MqSerializerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
@@ -121,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664127984565</updated>
-      <workItem from="1664127986462" duration="7132000" />
+      <workItem from="1664127986462" duration="8996000" />
     </task>
     <servers />
   </component>
@@ -138,7 +124,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dk/jdsj/mq/MqSerializer.java</url>
-          <line>32</line>
+          <line>34</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
